@@ -351,176 +351,176 @@
       "difficulty_level": 1
     },
     {
-      "id": "tue2-mc-3",
-      "reading": "tuesday-week-2",
+      "id": "tue1-mc-3",
+      "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 2",
+      "statement": "Durante el algoritmo de propagación hacia atrás (backpropagation), ¿cómo se calcula el gradiente local de una neurona ubicada en una capa oculta?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Multiplicando la derivada de su función de activación por la suma ponderada de los gradientes locales de las neuronas de la capa posterior.",
+        "Restando el valor de la salida deseada del valor obtenido en la salida real de la red neuronal.",
+        "Sumando linealmente las entradas ponderadas que provienen exclusivamente de la capa de entrada.",
+        "Calculando la derivada de segundo orden de la función de costo sin aplicar la regla de la cadena."
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Multiplicando la derivada de su función de activación por la suma ponderada de los gradientes locales de las neuronas de la capa posterior.",
+      "difficulty_level": 6
     },
     {
-      "id": "tue2-mc-4",
-      "reading": "tuesday-week-2",
+      "id": "tue1-mc-2",
+      "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 2",
+      "statement": "En el contexto del entrenamiento de un perceptrón multicapa, ¿cuál es la característica principal del aprendizaje por lotes (batch learning) en comparación con el aprendizaje en línea (online learning)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Los pesos se actualizan únicamente después de procesar todo el conjunto de entrenamiento (una época), ofreciendo un cálculo más preciso del gradiente.",
+        "Los pesos se actualizan inmediatamente después de presentar cada patrón individual de entrenamiento de forma estocástica.",
+        "Requiere almacenar significativamente menos memoria en comparación con el aprendizaje en línea.",
+        "Es inmune a quedar atrapado en mínimos locales debido al ruido introducido en cada patrón de datos."
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Los pesos se actualizan únicamente después de procesar todo el conjunto de entrenamiento (una época), ofreciendo un cálculo más preciso del gradiente.",
+      "difficulty_level": 4
     },
     {
-      "id": "tue2-mc-5",
-      "reading": "tuesday-week-2",
+      "id": "tue1-mc-1",
+      "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 2",
+      "statement": "¿Qué establece principalmente el Teorema de Aproximación Universal para los perceptrones multicapa (MLP)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Un perceptrón multicapa con al menos una capa oculta y funciones de activación no lineales continuas puede aproximar cualquier función continua con el grado de precisión deseado.",
+        "El descenso de gradiente siempre garantiza encontrar el mínimo global del error de entrenamiento en cualquier red.",
+        "Una red neuronal de una sola capa lineal puede clasificar cualquier conjunto de datos no linealmente separable.",
+        "Añadir más capas ocultas reduce automáticamente el número total de parámetros entrenables del modelo."
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Un perceptrón multicapa con al menos una capa oculta y funciones de activación no lineales continuas puede aproximar cualquier función continua con el grado de precisión deseado.",
+      "difficulty_level": 4
     },
     {
       "id": "thu2-tf-1",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 2",
+      "statement": "Las redes neuronales alimentadas hacia adelante (feedforward networks) permiten conexiones de retroalimentación en las que la salida de una capa vuelve a entrar a capas anteriores.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 2
     },
     {
       "id": "thu2-tf-2",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 2",
+      "statement": "La función de activación Rectified Linear Unit (ReLU) se define como g(z) = max(0, z) y ayuda a mitigar el problema de desvanecimiento del gradiente para valores de entrada positivos.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 3
     },
     {
       "id": "thu2-tf-3",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 2",
+      "statement": "Al combinar una capa de salida Softmax con la función de costo de entropía cruzada, el logaritmo cancela la exponencial, evitando la saturación del gradiente cuando la red comete errores grandes.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 5
     },
     {
       "id": "thu2-tf-4",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 2",
+      "statement": "El Teorema de Aproximación Universal garantiza que el algoritmo de descenso de gradiente siempre encontrará los parámetros óptimos para cualquier función objetivo continua.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 4
     },
     {
       "id": "thu2-tf-5",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 2",
+      "statement": "El enfoque de diferenciación automática symbol-to-symbol construye un grafo computacional simbólico explícito para representar los gradientes, en lugar de calcular únicamente valores numéricos directos.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 6
     },
     {
       "id": "thu2-mc-1",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 2",
+      "statement": "¿Por qué no se recomienda utilizar el error cuadrático medio (MSE) como función de costo para entrenar unidades de salida sigmoides en problemas de clasificación?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque el MSE causa la saturación de la función sigmoide cuando la red se equivoca, produciendo gradientes casi nulos.",
+        "Porque el MSE requiere que la red tenga conexiones de retroalimentación (feedback).",
+        "Porque el MSE no permite el uso del algoritmo de propagación hacia atrás (backpropagation).",
+        "Porque el MSE incrementa exponencialmente la memoria utilizada en el grafo computacional."
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Porque el MSE causa la saturación de la función sigmoide cuando la red se equivoca, produciendo gradientes casi nulos.",
+      "difficulty_level": 5
     },
     {
       "id": "thu2-mc-2",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 2",
+      "statement": "¿Qué variante de la función de activación ReLU fija una pequeña pendiente constante alfa (por ejemplo, 0.01) para valores de entrada negativos (z < 0)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Leaky ReLU",
+        "Maxout Unit",
+        "Parametric ReLU (PReLU)",
+        "Absolute Value Rectification"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Leaky ReLU",
+      "difficulty_level": 3
     },
     {
       "id": "thu2-mc-3",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 2",
+      "statement": "¿Cuál es la función principal de la capa de salida Softmax en un modelo de clasificación multiclase?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Representar una distribución de probabilidad discreta (Multinoulli) donde las salidas son positivas y suman 1.",
+        "Convertir cualquier problema no lineal en un problema estrictamente convexo.",
+        "Eliminar la necesidad de capas ocultas en perceptrones multicapa.",
+        "Reducir el número de parámetros entrenables en la capa previa."
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Representar una distribución de probabilidad discreta (Multinoulli) donde las salidas son positivas y suman 1.",
+      "difficulty_level": 3
     },
     {
       "id": "thu2-mc-4",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 2",
+      "statement": "De acuerdo con el Capítulo 6, ¿cuál es una ventaja clave de las redes neuronales profundas frente a las redes anchas de una sola capa oculta?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Pueden representar funciones compuestas complejas utilizando exponencialmente menos unidades y generalizan mejor.",
+        "Garantizan que la función de costo no tendrá ningún mínimo local ni punto de ensilladura.",
+        "Son las únicas que cumplen con la propiedad de aproximación universal.",
+        "No requieren calcular derivadas mediante la regla de la cadena."
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Pueden representar funciones compuestas complejas utilizando exponencialmente menos unidades y generalizan mejor.",
+      "difficulty_level": 4
     },
     {
       "id": "thu2-mc-5",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 2",
+      "statement": "¿Qué técnica de acumulación utiliza el algoritmo de Backpropagation en un grafo computacional para optimizar el cálculo de gradientes respecto a las entradas y parámetros?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Acumulación en modo inverso (reverse-mode accumulation)",
+        "Acumulación en modo directo (forward-mode accumulation)",
+        "Diferenciación finita por aproximación estocástica",
+        "Inversión explícita de la matriz Hessiana"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Acumulación en modo inverso (reverse-mode accumulation)",
+      "difficulty_level": 6
     }
   ]
 }
