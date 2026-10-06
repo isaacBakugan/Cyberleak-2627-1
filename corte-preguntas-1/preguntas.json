@@ -1,185 +1,158 @@
 {
-  "team": "",
+  "team": "Cyberleak",
   "assignment": "corte-preguntas-1",
   "questions": [
     {
-      "id": "tue1-tf-1",
-      "reading": "tuesday-week-1",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
-    },
+  "id": "tue1-tf-1",
+  "reading": "tuesday-week-1",
+  "type": "true_false",
+  "statement": "Según la definición de Mitchell citada en el capítulo, se dice que un programa aprende de la experiencia E respecto a una clase de tareas T y una medida de desempeño P si su desempeño en T, medido por P, mejora con la experiencia E.",
+  "options": ["Verdadero", "Falso"],
+  "correct_option": "Verdadero",
+  "difficulty_level": 1
+},
+{
+  "id": "tue1-tf-2",
+  "reading": "tuesday-week-1",
+  "type": "true_false",
+  "statement": "El error de generalización de un modelo se estima típicamente midiendo su desempeño sobre un conjunto de prueba recolectado por separado del conjunto de entrenamiento.",
+  "options": ["Verdadero", "Falso"],
+  "correct_option": "Verdadero",
+  "difficulty_level": 2
+},
+{
+  "id": "tue1-tf-3",
+  "reading": "tuesday-week-1",
+  "type": "true_false",
+  "statement": "Los hiperparámetros que controlan la capacidad del modelo (como el grado de un polinomio) pueden aprenderse directamente sobre el conjunto de entrenamiento sin riesgo de sobreajuste.",
+  "options": ["Verdadero", "Falso"],
+  "correct_option": "Falso",
+  "difficulty_level": 4
+},
+{
+  "id": "tue1-tf-4",
+  "reading": "tuesday-week-1",
+  "type": "true_false",
+  "statement": "Todo estimador asintóticamente insesgado es necesariamente un estimador consistente.",
+  "options": ["Verdadero", "Falso"],
+  "correct_option": "Falso",
+  "difficulty_level": 8
+},
+{
+  "id": "tue1-tf-5",
+  "reading": "tuesday-week-1",
+  "type": "true_false",
+  "statement": "En clasificación multiclase con pérdida 0-1, el algoritmo de 1 vecino más cercano converge exactamente al error de Bayes cuando el número de ejemplos de entrenamiento tiende a infinito.",
+  "options": ["Verdadero", "Falso"],
+  "correct_option": "Falso",
+  "difficulty_level": 9
+},
+{
+  "id": "tue1-mc-1",
+  "reading": "tuesday-week-1",
+  "type": "multiple_choice",
+  "statement": "¿Cómo se llama la tarea de aprendizaje automático en la que el programa debe predecir un valor numérico a partir de una entrada, por ejemplo el precio futuro de un valor bursátil?",
+  "options": [
+    "Regresión",
+    "Clasificación",
+    "Transcripción",
+    "Detección de anomalías"
+  ],
+  "correct_option": "Regresión",
+  "difficulty_level": 2
+},
+{
+  "id": "tue1-mc-2",
+  "reading": "tuesday-week-1",
+  "type": "multiple_choice",
+  "statement": "Según el capítulo, ¿cuándo ocurre el sobreajuste (overfitting)?",
+  "options": [
+    "Cuando la brecha entre el error de entrenamiento y el error de prueba es demasiado grande.",
+    "Cuando el modelo no logra obtener un error suficientemente bajo en el conjunto de entrenamiento.",
+    "Cuando el conjunto de validación es más grande que el conjunto de entrenamiento.",
+    "Cuando el error de entrenamiento es siempre mayor que el error de prueba."
+  ],
+  "correct_option": "Cuando la brecha entre el error de entrenamiento y el error de prueba es demasiado grande.",
+  "difficulty_level": 3
+},
+{
+  "id": "tue1-mc-3",
+  "reading": "tuesday-week-1",
+  "type": "multiple_choice",
+  "statement": "En regresión lineal con decaimiento de pesos (weight decay), J(w) = MSE_train + λwᵀw. ¿Qué efecto tiene aumentar el valor de λ?",
+  "options": [
+    "Obliga a que los pesos sean más pequeños, expresando una preferencia por soluciones más simples.",
+    "Aumenta la capacidad del modelo permitiendo pesos de mayor magnitud.",
+    "Elimina la necesidad de un conjunto de prueba para evaluar el modelo.",
+    "Reduce el error de entrenamiento siempre hasta llegar a cero."
+  ],
+  "correct_option": "Obliga a que los pesos sean más pequeños, expresando una preferencia por soluciones más simples.",
+  "difficulty_level": 5
+},
+{
+  "id": "tue1-mc-4",
+  "reading": "tuesday-week-1",
+  "type": "multiple_choice",
+  "statement": "¿A qué técnica de regularización equivale la estimación MAP (máximo a posteriori) en regresión lineal cuando se usa una distribución a priori gaussiana sobre los pesos?",
+  "options": [
+    "Decaimiento de pesos (weight decay).",
+    "Validación cruzada de k particiones.",
+    "Estimación de máxima verosimilitud sin regularización.",
+    "El truco del kernel (kernel trick)."
+  ],
+  "correct_option": "Decaimiento de pesos (weight decay).",
+  "difficulty_level": 6
+},
+{
+  "id": "tue1-mc-5",
+  "reading": "tuesday-week-1",
+  "type": "multiple_choice",
+  "statement": "¿Por qué el truco del kernel (kernel trick) es poderoso en las máquinas de vectores de soporte?",
+  "options": [
+    "Permite aprender modelos no lineales respecto a x usando optimización convexa, porque φ(x) está fija y solo se optimiza α.",
+    "Garantiza que el costo de evaluar la función de decisión sea constante e independiente del número de ejemplos de entrenamiento.",
+    "Elimina la necesidad de elegir una función kernel adecuada.",
+    "Convierte el problema en no supervisado para evitar el uso de etiquetas."
+  ],
+  "correct_option": "Permite aprender modelos no lineales respecto a x usando optimización convexa, porque φ(x) está fija y solo se optimiza α.",
+  "difficulty_level": 7
+},
     {
-      "id": "tue1-tf-2",
-      "reading": "tuesday-week-1",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
-    },
-    {
-      "id": "tue1-tf-3",
-      "reading": "tuesday-week-1",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
-    },
-    {
-      "id": "tue1-tf-4",
-      "reading": "tuesday-week-1",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
-    },
-    {
-      "id": "tue1-tf-5",
-      "reading": "tuesday-week-1",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
-    },
-    {
-      "id": "tue1-mc-1",
-      "reading": "tuesday-week-1",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 1",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
-    },
-    {
-      "id": "tue1-mc-2",
-      "reading": "tuesday-week-1",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 1",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
-    },
-    {
-      "id": "tue1-mc-3",
-      "reading": "tuesday-week-1",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 1",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
-    },
-    {
-      "id": "tue1-mc-4",
-      "reading": "tuesday-week-1",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 1",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
-    },
-    {
-      "id": "tue1-mc-5",
-      "reading": "tuesday-week-1",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 1",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
-    },
-    {
-      "id": "thu1-tf-1",
-      "reading": "thursday-week-1",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
-    },
-    {
-      "id": "thu1-tf-2",
-      "reading": "thursday-week-1",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
-    },
-    {
-      "id": "thu1-tf-3",
-      "reading": "thursday-week-1",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
-    },
-    {
-      "id": "thu1-tf-4",
-      "reading": "thursday-week-1",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
-    },
+  "id": "thu1-tf-1",
+  "reading": "thursday-week-1",
+  "type": "true_false",
+  "statement": "En el aprendizaje supervisado, el agente observa pares de entrada-salida de ejemplo y aprende una función que mapea de la entrada a la salida.",
+  "options": ["Verdadero", "Falso"],
+  "correct_option": "Verdadero",
+  "difficulty_level": 2
+},
+{
+  "id": "thu1-tf-2",
+  "reading": "thursday-week-1",
+  "type": "true_false",
+  "statement": "Cuando la salida y es un número (por ejemplo, la temperatura de mañana), el problema de aprendizaje se denomina clasificación.",
+  "options": ["Verdadero", "Falso"],
+  "correct_option": "Falso",
+  "difficulty_level": 3
+},
+{
+  "id": "thu1-tf-3",
+  "reading": "thursday-week-1",
+  "type": "true_false",
+  "statement": "Un problema de aprendizaje es realizable si el espacio de hipótesis contiene la función verdadera, pero no siempre podemos saber si lo es porque la función verdadera es desconocida.",
+  "options": ["Verdadero", "Falso"],
+  "correct_option": "Verdadero",
+  "difficulty_level": 4
+},
+{
+  "id": "thu1-tf-4",
+  "reading": "thursday-week-1",
+  "type": "true_false",
+  "statement": "La navaja de Ockham indica que, entre varias hipótesis consistentes con los datos, se debe preferir la más compleja, por lo que un polinomio consistente de grado 7 es preferible a una recta consistente.",
+  "options": ["Verdadero", "Falso"],
+  "correct_option": "Falso",
+  "difficulty_level": 4
+},
     {
       "id": "thu1-tf-5",
       "reading": "thursday-week-1",
