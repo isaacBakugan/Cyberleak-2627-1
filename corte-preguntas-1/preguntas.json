@@ -154,175 +154,175 @@
   "difficulty_level": 4
 },
     {
-      "id": "thu1-tf-5",
-      "reading": "thursday-week-1",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
-    },
-    {
-      "id": "thu1-mc-1",
-      "reading": "thursday-week-1",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
-    },
-    {
-      "id": "thu1-mc-2",
-      "reading": "thursday-week-1",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
-    },
-    {
-      "id": "thu1-mc-3",
-      "reading": "thursday-week-1",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
-    },
-    {
-      "id": "thu1-mc-4",
-      "reading": "thursday-week-1",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
-    },
-    {
-      "id": "thu1-mc-5",
-      "reading": "thursday-week-1",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
-    },
-    {
-      "id": "tue2-tf-1",
-      "reading": "tuesday-week-2",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
-    },
-    {
-      "id": "tue2-tf-2",
-      "reading": "tuesday-week-2",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
-    },
-    {
-      "id": "tue2-tf-3",
-      "reading": "tuesday-week-2",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
-    },
-    {
-      "id": "tue2-tf-4",
-      "reading": "tuesday-week-2",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
-    },
-    {
-      "id": "tue2-tf-5",
-      "reading": "tuesday-week-2",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
-    },
-    {
-      "id": "tue2-mc-1",
-      "reading": "tuesday-week-2",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
-    },
-    {
-      "id": "tue2-mc-2",
-      "reading": "tuesday-week-2",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
-    },
+    "id": "tue1-tf-1",
+    "reading": "tuesday-week-1",
+    "type": "true_false",
+    "statement": "Según la definición clásica de Tom Mitchell, se dice que un programa aprende de la experiencia E respecto a una clase de tareas T y medida P, si su desempeño en T medido por P mejora con E.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct_option": "Verdadero",
+    "difficulty_level": 2
+  },
+  {
+    "id": "tue1-mc-1",
+    "reading": "tuesday-week-1",
+    "type": "multiple_choice",
+    "statement": "En el marco formal del aprendizaje automático definido por Tom Mitchell, ¿cuál de los siguientes elementos corresponde a la medida de desempeño (P) en un agente que aprende a jugar ajedrez?",
+    "options": [
+      "El porcentaje de partidas ganadas contra un oponente",
+      "La secuencia de movimientos realizados durante el entrenamiento",
+      "La lista de reglas oficiales del juego",
+      "El número total de horas dedicadas a entrenar el modelo"
+    ],
+    "correct_option": "El porcentaje de partidas ganadas contra un oponente",
+    "difficulty_level": 3
+  },
+  {
+    "id": "tue1-mc-2",
+    "reading": "tuesday-week-1",
+    "type": "multiple_choice",
+    "statement": "¿Cuál es la principal diferencia entre un problema de clasificación y uno de regresión en el aprendizaje supervisado?",
+    "options": [
+      "La clasificación predice etiquetas o categorías discretas, mientras que la regresión predice valores numéricos continuos",
+      "La clasificación no requiere datos etiquetados, mientras que la regresión sí",
+      "La clasificación solo trabaja con imágenes y la regresión con tablas numéricas",
+      "La clasificación siempre utiliza árboles de decisión y la regresión redes neuronales"
+    ],
+    "correct_option": "La clasificación predice etiquetas o categorías discretas, mientras que la regresión predice valores numéricos continuos",
+    "difficulty_level": 2
+  },
+  {
+    "id": "tue1-mc-3",
+    "reading": "tuesday-week-1",
+    "type": "multiple_choice",
+    "statement": "¿Qué concepto describe la habilidad de un modelo de aprendizaje automático para realizar predicciones correctas sobre datos nuevos no observados durante el entrenamiento?",
+    "options": [
+      "Memorización",
+      "Generalización",
+      "Subajuste (Underfitting)",
+      "Sesgo de codificación"
+    ],
+    "correct_option": "Generalización",
+    "difficulty_level": 3
+  },
+  {
+    "id": "tue1-mc-4",
+    "reading": "tuesday-week-1",
+    "type": "multiple_choice",
+    "statement": "¿En cuál de las siguientes situaciones nos enfrentamos a un problema de aprendizaje NO supervisado?",
+    "options": [
+      "Predecir el precio de una vivienda en función de sus metros cuadrados y número de habitaciones",
+      "Clasificar correos electrónicos en spam o no spam utilizando un conjunto previamente etiquetado",
+      "Agrupar clientes de una plataforma en segmentos según su comportamiento sin tener etiquetas previas",
+      "Identificar dígitos manuscritos en un conjunto de imágenes etiquetadas del 0 al 9"
+    ],
+    "correct_option": "Agrupar clientes de una plataforma en segmentos según su comportamiento sin tener etiquetas previas",
+    "difficulty_level": 4
+  },
+  {
+    "id": "tue1-mc-5",
+    "reading": "tuesday-week-1",
+    "type": "multiple_choice",
+    "statement": "¿Cuál es el objetivo principal de dividir los datos disponibles en un conjunto de entrenamiento (training set) y un conjunto de prueba (test set)?",
+    "options": [
+      "Aumentar la velocidad de ejecución del algoritmo durante el entrenamiento",
+      "Evaluar de forma imparcial la capacidad de generalización del modelo ante datos no vistos",
+      "Asegurar que el algoritmo memorice exactamente cada ejemplo proporcionado",
+      "Eliminar la necesidad de definir una función de pérdida"
+    ],
+    "correct_option": "Evaluar de forma imparcial la capacidad de generalización del modelo ante datos no vistos",
+    "difficulty_level": 3
+  },
+  {
+    "id": "thu1-tf-1",
+    "reading": "thursday-week-1",
+    "type": "true_false",
+    "statement": "En el aprendizaje supervisado, un problema de aprendizaje se considera realizable si el espacio de hipótesis contiene a la función verdadera.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct_option": "Verdadero",
+    "difficulty_level": 2
+  },
+  {
+    "id": "thu1-tf-2",
+    "reading": "thursday-week-1",
+    "type": "true_false",
+    "statement": "El principio de la Navaja de Ockham establece que entre varias hipótesis consistentes con los datos observados, se debe seleccionar la hipótesis más compleja.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct_option": "Falso",
+    "difficulty_level": 1
+  },
+  {
+    "id": "thu1-tf-3",
+    "reading": "thursday-week-1",
+    "type": "true_false",
+    "statement": "La estrategia de 'early stopping' (parada temprana) en árboles de decisión siempre garantiza detectar combinaciones complejas de atributos informativos como la función XOR.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct_option": "Falso",
+    "difficulty_level": 6
+  },
+  {
+    "id": "thu1-tf-4",
+    "reading": "thursday-week-1",
+    "type": "true_false",
+    "statement": "La regularización L1 tiende a producir modelos dispersos (sparse models) asignando el valor exacto de cero a varios pesos, a diferencia de la regularización L2.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct_option": "Verdadero",
+    "difficulty_level": 7
+  },
+  {
+    "id": "thu1-tf-5",
+    "reading": "thursday-week-1",
+    "type": "true_false",
+    "statement": "En la teoría de aprendizaje PAC (Probably Approximately Correct), la complejidad muestral para el espacio de todas las funciones booleanas de n atributos crece de forma polinomial respecto a n.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct_option": "Falso",
+    "difficulty_level": 8
+  },
+  {
+    "id": "thu1-mc-1",
+    "reading": "thursday-week-1",
+    "type": "multiple_choice",
+    "statement": "¿Qué métrica basada en entropía utiliza el algoritmo de aprendizaje de árboles de decisión para seleccionar la prueba del atributo más informativo en cada nodo?",
+    "options": [
+      "Entropía condicional",
+      "Ganancia de información (Information Gain)",
+      "Error cuadrático medio",
+      "Razón de varianza"
+    ],
+    "correct_option": "Ganancia de información (Information Gain)",
+    "difficulty_level": 3
+  },
+  {
+    "id": "thu1-mc-2",
+    "reading": "thursday-week-1",
+    "type": "multiple_choice",
+    "statement": "En el contexto del aprendizaje PAC para listas de decisión (k-DL), ¿cuál es la relación de inclusión con respecto al conjunto de árboles de decisión de profundidad máxima k (k-DT)?",
+    "options": [
+      "El lenguaje k-DL no puede representar ninguna función contenida en k-DT",
+      "El lenguaje k-DL incluye como subconjunto al lenguaje k-DT",
+      "El lenguaje k-DT es un superconjunto estricto que abarca todas las funciones booleanas",
+      "Ambos lenguajes representan clases de complejidad disjuntas que no se solapan"
+    ],
+    "correct_option": "El lenguaje k-DL incluye como subconjunto al lenguaje k-DT",
+    "difficulty_level": 9
+  },
     {
       "id": "tue1-mc-3",
       "reading": "tuesday-week-1",
