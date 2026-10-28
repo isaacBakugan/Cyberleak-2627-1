@@ -6,236 +6,236 @@
       "id": "tue3-tf-1",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 3",
+      "statement": "Las redes neuronales convolucionales emplean la operación de convolución en lugar de la multiplicación general de matrices en al menos una de sus capas.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "Convolutional networks are simply neural networks that use convolution in place of general matrix multiplication in at least one of their layers."
     },
     {
       "id": "tue3-tf-2",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 3",
+      "statement": "La propiedad conmutativa de la convolución surge porque invertimos el kernel con respecto a la entrada en la fórmula matemática.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 5,
+      "source_quote": "The commutative property of convolution arises because we have flipped the kernel relative to the input, in the sense that as m increases, the index into the input increases, but the index into the kernel decreases."
     },
     {
       "id": "tue3-tf-3",
-      "reading": "tuesday-week-3",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 3",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+        "reading": "tuesday-week-3",
+        "type": "true_false",
+        "statement": "Muchas bibliotecas de redes neuronales implementan la correlación cruzada con el nombre de convolución, la cual equivale a la convolución pero invirtiendo obligatoriamente el kernel.",
+        "options": [
+          "Verdadero",
+          "Falso"
+        ],
+        "correct_option": "Falso",
+        "difficulty_level": 4,
+        "source_quote": "Instead, many neural network libraries implement a related function called the cross-correlation, which is the same as convolution but without flipping the kernel"
     },
     {
       "id": "tue3-tf-4",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 3",
+      "statement": "La operación de convolución es naturalmente equivariante a cambios en la escala y rotación de una imagen.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "Convolution is not naturally equivariant to some other transformations, such as changes in the scale or rotation of an image."
     },
     {
       "id": "tue3-tf-5",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 3",
+      "statement": "El uso de la convolución puede entenderse como la introducción de una distribución a priori infinitamente fuerte sobre los parámetros de una capa.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 8,
+      "source_quote": "Overall, we can think of the use of convolution as introducing an infinitely strong prior probability distribution over the parameters of a layer."
     },
     {
       "id": "tue3-mc-1",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 3",
+      "statement": "¿Cuáles son las tres ideas fundamentales sobre las que se basa la convolución para mejorar un sistema de aprendizaje automático?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Interacciones dispersas, compartición de parámetros y representaciones equivariantes",
+        "Multiplicación densa, pesos independientes y regulaciones por dropout",
+        "Pooling máximo, activación sigmoide y convolución traspuesta implícita",
+        "Normalización por lotes, conexiones densas e invarianza completa de escala"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Interacciones dispersas, compartición de parámetros y representaciones equivariantes",
+      "difficulty_level": 3,
+      "source_quote": "Convolution leverages three important ideas that can help improve a machine learning system: sparse interactions, parameter sharing and equivariant representations."
     },
     {
       "id": "tue3-mc-2",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 3",
+      "statement": "¿Cómo se denomina al conjunto de unidades de entrada que afectan directamente a una unidad de salida específica en una red convolucional?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Mapa de características",
+        "Campo receptivo",
+        "Matriz de Toeplitz",
+        "Capa detector"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Campo receptivo",
+      "difficulty_level": 2,
+      "source_quote": "We highlight one output unit, s3, and highlight the input units in x that affect this unit. These units are known as the receptive field of s3"
     },
     {
       "id": "tue3-mc-3",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 3",
+      "statement": "¿Cómo se llama el caso de relleno cero donde no se utiliza ningún padding y el kernel solo visita posiciones contenidas completamente en la imagen?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Same convolution",
+        "Full convolution",
+        "Valid convolution",
+        "Tiled convolution"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Valid convolution",
+      "difficulty_level": 5,
+      "source_quote": "In MATLAB terminology, this is called valid convolution. In this case, all pixels in the output are a function of the same number of pixels in the input, so the behavior of an output pixel is somewhat more regular."
     },
     {
       "id": "tue3-mc-4",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 3",
+      "statement": "¿En qué consiste el funcionamiento de la convolución en mosaico o tiled convolution?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "En compartir un único kernel idéntico a lo largo de todas las posiciones espaciales",
+        "En asignar un conjunto completamente independiente de pesos para cada píxel individual",
+        "En aplicar únicamente pooling máximo sin aprender ningún parámetro de filtro",
+        "En aprender un conjunto de kernels que se rotan cíclicamente a medida que nos desplazamos por el espacio"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "En aprender un conjunto de kernels que se rotan cíclicamente a medida que nos desplazamos por el espacio",
+      "difficulty_level": 7,
+      "source_quote": "Rather than learning a separate set of weights at every spatial location, we learn a set of kernels that we rotate through as we move through space."
     },
     {
       "id": "tue3-mc-5",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 3",
+      "statement": "¿Qué tipo de funciones matemáticas describen los pesos de la mayoría de las células simples de la corteza visual primaria V1 según la correlación inversa?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Funciones de Gabor",
+        "Funciones sigmoides tangenciales",
+        "Polinomios de Chebyshev",
+        "Transformadas de Haar"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Funciones de Gabor",
+      "difficulty_level": 9,
+      "source_quote": "Reverse correlation shows us that most V1 cells have weights that are described by Gabor functions."
     },
     {
       "id": "thu3-tf-1",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 3",
+      "statement": "En el modelo básico de la red de Hopfield no existe auto-retroalimentación (self-feedback) en los neuronas.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "Basically, there is no self-feedback in the model. The output of each neuron is fed back, via a unit time delay element, to each of the other neurons in the network."
     },
     {
       "id": "thu3-tf-2",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 3",
+      "statement": "La red de Grossberg fue inspirada principalmente por la estructura y funcionamiento del sistema auditivo de los mamíferos.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 4,
+      "source_quote": "This network was inspired by the operation of the mammalian visual system."
     },
     {
       "id": "thu3-tf-3",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 3",
+      "statement": "En una red neuronal celular, cualquier celda está conectada únicamente con sus celdas vecinas directas.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 6,
+      "source_quote": "The structure of cellular neural networks is similar to that found in cellular automata; namely, any cell in a cellular neural network is connected only to its neighbor cells."
     },
     {
       "id": "thu3-tf-4",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 3",
+      "statement": "Un sistema dinámico no lineal cuya función vectorial F(x(t)) depende explícitamente del tiempo t se denomina sistema autónomo.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 7,
+      "source_quote": "A nonlinear dynamic system for which the vector function F(x(t)) does not depend explicitly on time t is said to be autonomous."
     },
     {
       "id": "thu3-tf-5",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 3",
+      "statement": "Para facilitar el análisis de estabilidad de la red de Hopfield, se asume que la matriz de pesos sinápticos es simétrica.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 5,
+      "source_quote": "The matrix of synaptic weights is symmetric, that is, w_ji = w_ij, for all i and j"
     },
     {
       "id": "thu3-mc-1",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 3",
+      "statement": "¿Qué elemento básico constituye el núcleo del modelo shunting de Grossberg?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "El perceptrón multicapa estático",
+        "El integrador con pérdidas (leaky integrator)",
+        "La celda de memoria LSTM",
+        "El amplificador operacional diferencial"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "El integrador con pérdidas (leaky integrator)",
+      "difficulty_level": 8,
+      "source_quote": "The leaky integrator forms the nucleus of one of Grossberg's fundamental neural models: the shunting model, which is shown in Figure 5.9."
     },
     {
       "id": "thu3-mc-2",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 3",
+      "statement": "Según las definiciones de sistemas dinámicos no lineales, ¿cuándo se considera que un estado de equilibrio es asintóticamente estable?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Cuando es divergente pero permanece acotado en el espacio de estados",
+        "Cuando es únicamente convergente sin requerir estabilidad uniforme",
+        "Cuando es tanto uniforme estable como convergente",
+        "Cuando su matriz sináptica es estrictamente antisimétrica"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Cuando es tanto uniforme estable como convergente",
+      "difficulty_level": 9,
+      "source_quote": "The equilibrium state x_bar is said to be asymptotically stable if it is both stable and convergent."
     },
     {
       "id": "thu3-mc-3",
