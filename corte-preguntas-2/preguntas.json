@@ -7,10 +7,7 @@
       "reading": "tuesday-week-3",
       "type": "true_false",
       "statement": "Las redes neuronales convolucionales emplean la operación de convolución en lugar de la multiplicación general de matrices en al menos una de sus capas.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
       "difficulty_level": 2,
       "source_quote": "Convolutional networks are simply neural networks that use convolution in place of general matrix multiplication in at least one of their layers."
@@ -20,36 +17,27 @@
       "reading": "tuesday-week-3",
       "type": "true_false",
       "statement": "La propiedad conmutativa de la convolución surge porque invertimos el kernel con respecto a la entrada en la fórmula matemática.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
       "difficulty_level": 5,
       "source_quote": "The commutative property of convolution arises because we have flipped the kernel relative to the input, in the sense that as m increases, the index into the input increases, but the index into the kernel decreases."
     },
     {
       "id": "tue3-tf-3",
-        "reading": "tuesday-week-3",
-        "type": "true_false",
-        "statement": "Muchas bibliotecas de redes neuronales implementan la correlación cruzada con el nombre de convolución, la cual equivale a la convolución pero invirtiendo obligatoriamente el kernel.",
-        "options": [
-          "Verdadero",
-          "Falso"
-        ],
-        "correct_option": "Falso",
-        "difficulty_level": 4,
-        "source_quote": "Instead, many neural network libraries implement a related function called the cross-correlation, which is the same as convolution but without flipping the kernel"
+      "reading": "tuesday-week-3",
+      "type": "true_false",
+      "statement": "Muchas bibliotecas de redes neuronales implementan la correlación cruzada con el nombre de convolución, la cual equivale a la convolución pero invirtiendo obligatoriamente el kernel.",
+      "options": ["Verdadero", "Falso"],
+      "correct_option": "Falso",
+      "difficulty_level": 4,
+      "source_quote": "Instead, many neural network libraries implement a related function called the cross-correlation, which is the same as convolution but without flipping the kernel"
     },
     {
       "id": "tue3-tf-4",
       "reading": "tuesday-week-3",
       "type": "true_false",
       "statement": "La operación de convolución es naturalmente equivariante a cambios en la escala y rotación de una imagen.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Falso",
       "difficulty_level": 3,
       "source_quote": "Convolution is not naturally equivariant to some other transformations, such as changes in the scale or rotation of an image."
@@ -59,10 +47,7 @@
       "reading": "tuesday-week-3",
       "type": "true_false",
       "statement": "El uso de la convolución puede entenderse como la introducción de una distribución a priori infinitamente fuerte sobre los parámetros de una capa.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
       "difficulty_level": 8,
       "source_quote": "Overall, we can think of the use of convolution as introducing an infinitely strong prior probability distribution over the parameters of a layer."
@@ -133,8 +118,8 @@
       "type": "multiple_choice",
       "statement": "¿Qué tipo de funciones matemáticas describen los pesos de la mayoría de las células simples de la corteza visual primaria V1 según la correlación inversa?",
       "options": [
-        "Funciones de Gabor",
         "Funciones sigmoides tangenciales",
+        "Funciones de Gabor",
         "Polinomios de Chebyshev",
         "Transformadas de Haar"
       ],
@@ -147,10 +132,7 @@
       "reading": "thursday-week-3",
       "type": "true_false",
       "statement": "En el modelo básico de la red de Hopfield no existe auto-retroalimentación (self-feedback) en los neuronas.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
       "difficulty_level": 3,
       "source_quote": "Basically, there is no self-feedback in the model. The output of each neuron is fed back, via a unit time delay element, to each of the other neurons in the network."
@@ -160,10 +142,7 @@
       "reading": "thursday-week-3",
       "type": "true_false",
       "statement": "La red de Grossberg fue inspirada principalmente por la estructura y funcionamiento del sistema auditivo de los mamíferos.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Falso",
       "difficulty_level": 4,
       "source_quote": "This network was inspired by the operation of the mammalian visual system."
@@ -173,10 +152,7 @@
       "reading": "thursday-week-3",
       "type": "true_false",
       "statement": "En una red neuronal celular, cualquier celda está conectada únicamente con sus celdas vecinas directas.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
       "difficulty_level": 6,
       "source_quote": "The structure of cellular neural networks is similar to that found in cellular automata; namely, any cell in a cellular neural network is connected only to its neighbor cells."
@@ -186,10 +162,7 @@
       "reading": "thursday-week-3",
       "type": "true_false",
       "statement": "Un sistema dinámico no lineal cuya función vectorial F(x(t)) depende explícitamente del tiempo t se denomina sistema autónomo.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Falso",
       "difficulty_level": 7,
       "source_quote": "A nonlinear dynamic system for which the vector function F(x(t)) does not depend explicitly on time t is said to be autonomous."
@@ -199,10 +172,7 @@
       "reading": "thursday-week-3",
       "type": "true_false",
       "statement": "Para facilitar el análisis de estabilidad de la red de Hopfield, se asume que la matriz de pesos sinápticos es simétrica.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
       "difficulty_level": 5,
       "source_quote": "The matrix of synaptic weights is symmetric, that is, w_ji = w_ij, for all i and j"
@@ -214,8 +184,8 @@
       "statement": "¿Qué elemento básico constituye el núcleo del modelo shunting de Grossberg?",
       "options": [
         "El perceptrón multicapa estático",
-        "El integrador con pérdidas (leaky integrator)",
         "La celda de memoria LSTM",
+        "El integrador con pérdidas (leaky integrator)",
         "El amplificador operacional diferencial"
       ],
       "correct_option": "El integrador con pérdidas (leaky integrator)",
@@ -230,8 +200,8 @@
       "options": [
         "Cuando es divergente pero permanece acotado en el espacio de estados",
         "Cuando es únicamente convergente sin requerir estabilidad uniforme",
-        "Cuando es tanto uniforme estable como convergente",
-        "Cuando su matriz sináptica es estrictamente antisimétrica"
+        "Cuando su matriz sináptica es estrictamente antisimétrica",
+        "Cuando es tanto uniforme estable como convergente"
       ],
       "correct_option": "Cuando es tanto uniforme estable como convergente",
       "difficulty_level": 9,
@@ -241,251 +211,221 @@
       "id": "thu3-mc-3",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 3",
+      "statement": "¿Qué problema principal surge en el entrenamiento de redes neuronales recurrentes estándar al procesar secuencias de datos muy largas?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Desvanecimiento y explosión del gradiente",
+        "Sobreajuste inmediato en la primera época",
+        "Incapacidad para procesar datos numéricos continuos",
+        "Falta de compatibilidad con funciones de activación sigmoides"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Desvanecimiento y explosión del gradiente",
+      "difficulty_level": 4,
+      "source_quote": "Standard RNNs suffer from the vanishing gradient problem when dealing with long sequences."
     },
     {
       "id": "thu3-mc-4",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 3",
+      "statement": "¿Cómo se denomina al mecanismo integrado en las redes LSTM que decide qué información descartar del estado de la celda?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Capa de agrupamiento (pooling layer)",
+        "Compuerta de olvido (forget gate)",
+        "Compuerta de actualización (update gate)",
+        "Conexión residual"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Compuerta de olvido (forget gate)",
+      "difficulty_level": 2,
+      "source_quote": "A standard LSTM cell contains three gates: an input gate, an output gate, and a forget gate."
     },
     {
       "id": "thu3-mc-5",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 3",
+      "statement": "¿Cuál es el nombre del algoritmo utilizado típicamente para entrenar redes neuronales recurrentes calculando los gradientes a través del tiempo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Feedforward Neural Propagation",
+        "K-Means Clustering",
+        "Backpropagation Through Time (BPTT)",
+        "Support Vector Optimization"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Backpropagation Through Time (BPTT)",
+      "difficulty_level": 5,
+      "source_quote": "RNNs are typically trained using a variant of backpropagation known as Backpropagation Through Time (BPTT)."
     },
     {
       "id": "tue4-tf-1",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 4",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "statement": "La arquitectura del modelo Transformer prescinde totalmente del uso de capas recurrentes y convolucionales.",
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "The Transformer is the first sequence transduction model based entirely on attention, replacing the recurrent layers most commonly used in encoder-decoder architectures with multi-headed self-attention."
     },
     {
       "id": "tue4-tf-2",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 4",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "statement": "En el mecanismo de atención de producto escalar escalado, se divide por la suma total de las dimensiones de las claves.",
+      "options": ["Verdadero", "Falso"],
+      "correct_option": "Falso",
+      "difficulty_level": 7,
+      "source_quote": "We compute the dot products of the query with all keys, divide each by \\sqrt{d_k}, and apply a softmax function to obtain the weights on the values."
     },
     {
       "id": "tue4-tf-3",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 4",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "statement": "El Transformer utiliza codificaciones posicionales basadas en funciones trigonométricas de seno y coseno.",
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 4,
+      "source_quote": "In this work, we use sine and cosine functions of different frequencies for the positional encodings."
     },
     {
       "id": "tue4-tf-4",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 4",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "statement": "Las subcapas dentro de la arquitectura del modelo original Transformer producen salidas con una dimensionalidad estricta de 1024.",
+      "options": ["Verdadero", "Falso"],
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "To facilitate these residual connections, all sub-layers in the model, as well as the embedding layers, produce outputs of dimension d_model = 512."
     },
     {
       "id": "tue4-tf-5",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 4",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "statement": "El mecanismo de Multi-Head Attention permite al modelo atender conjuntamente a información de diferentes subespacios de representación.",
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 5,
+      "source_quote": "Multi-head attention allows the model to jointly attend to information from different representation subspaces at different positions."
     },
     {
       "id": "tue4-mc-1",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 4",
+      "statement": "¿Qué técnica de normalización se aplica inmediatamente después de cada conexión residual en las subcapas del Transformer?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Normalización por lotes (Batch Normalization)",
+        "Dropout de conexiones",
+        "Decaimiento de pesos",
+        "Normalización de capa (Layer Normalization)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Normalización de capa (Layer Normalization)",
+      "difficulty_level": 5,
+      "source_quote": "We employ a residual connection around each of the two sub-layers, followed by layer normalization."
     },
     {
       "id": "tue4-mc-2",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 4",
+      "statement": "¿Cuántas capas de atención paralelas (cabezas) se utilizan en la configuración base del modelo descrito originalmente en Attention is All You Need?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "8",
+        "4",
+        "16",
+        "32"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "8",
+      "difficulty_level": 8,
+      "source_quote": "In this work we employ h = 8 parallel attention layers, or heads."
     },
     {
       "id": "tue4-mc-3",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 4",
+      "statement": "En el decodificador del Transformer, ¿qué mecanismo se emplea para evitar que las posiciones actuales presten atención a posiciones futuras en la secuencia?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Redes neuronales convolucionales",
+        "Atención enmascarada (Masking)",
+        "Filtros de paso bajo",
+        "Pooling promedio global"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Atención enmascarada (Masking)",
+      "difficulty_level": 6,
+      "source_quote": "We modify the self-attention sub-layer in the decoder stack to prevent positions from attending to subsequent positions. This masking..."
     },
     {
       "id": "tue4-mc-4",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 4",
+      "statement": "¿Qué tipo de red neuronal se aplica a cada posición de manera separada e idéntica inmediatamente después de las subcapas de atención?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Red Neuronal Recurrente",
+        "Mapa Autoorganizado",
+        "Feed-Forward Network (FFN)",
+        "Red de Creencia Profunda"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Feed-Forward Network (FFN)",
+      "difficulty_level": 5,
+      "source_quote": "In addition to attention sub-layers, each of the layers in our encoder and decoder contains a fully connected feed-forward network, which is applied to each position separately and identically."
     },
     {
       "id": "tue4-mc-5",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 4",
+      "statement": "¿Por qué los autores deciden escalar numéricamente los productos escalares utilizando la raíz cuadrada de dk en su función de atención?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Para aumentar deliberadamente la varianza y así explorar mejor el espacio de pesos durante las épocas.",
+        "Para evitar divisiones por cero durante el proceso de inferencia en tiempo real.",
+        "Para reducir sistemáticamente el consumo de memoria en la GPU de entrenamiento.",
+        "Para contrarrestar el crecimiento de la magnitud que lleva la función softmax a regiones con gradientes extremadamente pequeños."
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Para contrarrestar el crecimiento de la magnitud que lleva la función softmax a regiones con gradientes extremadamente pequeños.",
+      "difficulty_level": 9,
+      "source_quote": "We suspect that for large values of d_k, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients."
     },
     {
       "id": "thu4-tf-1",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 4",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "statement": "Un agente racional ideal siempre debe seleccionar la acción que maximice el valor esperado de su medida de rendimiento específica.",
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "For each possible percept sequence, a rational agent should select an action that is expected to maximize its performance measure, given the evidence provided by the percept sequence..."
     },
     {
       "id": "thu4-tf-2",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 4",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "statement": "En un entorno de tareas que se clasifica como episódico, la decisión actual del agente afecta significativamente a los episodios futuros que enfrentará.",
+      "options": ["Verdadero", "Falso"],
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "Crucially, the next episode does not depend on the actions taken in previous episodes."
     },
     {
       "id": "thu4-tf-3",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 4",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "statement": "El acrónimo PEAS se utiliza al diseñar un agente para especificar concretamente el Rendimiento, el Entorno, los Actuadores y los Sensores.",
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "In designing an agent, the first step must always be to specify the task environment as fully as possible. We call this the PEAS (Performance, Environment, Actuators, Sensors) description."
     },
     {
       "id": "thu4-tf-4",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 4",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "statement": "Los agentes reactivos simples eligen sus acciones basándose siempre en la historia completa de todas las percepciones pasadas.",
+      "options": ["Verdadero", "Falso"],
+      "correct_option": "Falso",
+      "difficulty_level": 4,
+      "source_quote": "The simplest kind of agent is the simple reflex agent. These agents select actions on the basis of the current percept, ignoring the rest of the percept history."
     },
     {
       "id": "thu4-tf-5",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 4",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "statement": "Un entorno se considera completamente observable si los sensores del agente le dan acceso absoluto al estado completo del entorno en todo momento.",
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 4,
+      "source_quote": "If an agent's sensors give it access to the complete state of the environment at each point in time, then we say that the task environment is fully observable."
     },
     {
       "id": "thu4-mc-1",
