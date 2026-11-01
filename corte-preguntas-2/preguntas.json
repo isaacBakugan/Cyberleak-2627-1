@@ -431,216 +431,216 @@
       "id": "thu4-mc-1",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 4",
+      "statement": "En un agente que aprende, ¿qué componente le proporciona al elemento de aprendizaje la retroalimentación sobre qué tan bien lo está haciendo el agente?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "El generador de problemas",
+        "El elemento de rendimiento",
+        "El crítico",
+        "Los actuadores"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "El crítico",
+      "difficulty_level": 4,
+      "source_quote": "The learning element uses feedback from the critic on how the agent is doing and determines how the performance element should be modified to do better in the future."
     },
     {
       "id": "thu4-mc-2",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 4",
+      "statement": "Según la tabla de tiempo y memoria de la búsqueda en anchura (Figura 3.13), ¿cuál es la primera lección que se extrae?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Que el tiempo de ejecución siempre es despreciable frente a cualquier otro factor",
+        "Que los requisitos de memoria son un problema mayor que el tiempo de ejecución",
+        "Que la búsqueda en anchura deja de ser completa a partir de profundidad 10",
+        "Que la memoria solo crece de forma lineal con la profundidad de la solución"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Que los requisitos de memoria son un problema mayor que el tiempo de ejecución",
+      "difficulty_level": 5,
+      "source_quote": "First, the memory requirements are a bigger problem for breadth-first search than is the execution time."
     },
     {
       "id": "thu4-mc-3",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 4",
+      "statement": "En lugar de expandir el nodo menos profundo, ¿qué nodo expande la búsqueda de costo uniforme?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "El nodo con el menor valor heurístico h(n)",
+        "El nodo generado más recientemente",
+        "El nodo con mayor profundidad en el árbol",
+        "El nodo n con el menor costo de camino g(n)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "El nodo n con el menor costo de camino g(n)",
+      "difficulty_level": 6,
+      "source_quote": "Instead of expanding the shallowest node, uniform-cost search expands the node n with the lowest path cost g(n)."
     },
     {
       "id": "thu4-mc-4",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 4",
+      "statement": "¿Cuáles son los requisitos de memoria de la búsqueda en profundidad iterativa (iterative deepening search)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "O(bd)",
+        "O(b^d)",
+        "O(b^(d+1))",
+        "O(d^b)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "O(bd)",
+      "difficulty_level": 6,
+      "source_quote": "Like depth-first search, its memory requirements are modest: O(bd) to be precise."
     },
     {
       "id": "thu4-mc-5",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 4",
+      "statement": "¿Qué condición debe cumplir la heurística h(n) para que la versión de búsqueda en grafo de A* sea óptima?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Que solo sea admisible, sin necesidad de ninguna otra propiedad",
+        "Que sobreestime el costo real para llegar al objetivo",
+        "Que sea consistente",
+        "Que dependa únicamente del número de pasos desde el nodo raíz"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Que sea consistente",
+      "difficulty_level": 8,
+      "source_quote": "the tree-search version of A* is optimal if h(n) is admissible, while the graph-search version is optimal if h(n) is consistent."
     },
     {
       "id": "tue5-tf-1",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 5",
+      "statement": "En el aprendizaje por refuerzo pasivo, la política del agente es fija: en el estado s siempre ejecuta la acción π(s).",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "In passive learning, the agent's policy π is fixed: in state s, it always executes the action π(s)."
     },
     {
       "id": "tue5-tf-2",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 5",
+      "statement": "Un agente basado en utilidad no necesita un modelo del entorno para tomar decisiones, ya que le basta con su función de utilidad sobre los estados.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 4,
+      "source_quote": "A utility-based agent must also have a model of the environment in order to make decisions, because it must know the states to which its actions will lead."
     },
     {
       "id": "tue5-tf-3",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 5",
+      "statement": "La estimación directa de la utilidad aprovecha las conexiones entre estados dadas por las ecuaciones de Bellman, y por eso suele converger rápidamente.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 5,
+      "source_quote": "By ignoring the connections between states, direct utility estimation misses opportunities for learning."
     },
     {
       "id": "tue5-tf-4",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 5",
+      "statement": "Un agente de diferencias temporales que aprende una función Q no necesita un modelo de transición P(s' | s, a), ni para aprender ni para seleccionar acciones.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 6,
+      "source_quote": "a TD agent that learns a Q-function does not need a model of the form P(s' | s, a), either for learning or for action selection."
     },
     {
       "id": "tue5-tf-5",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 5",
+      "statement": "Q-learning es un algoritmo de aprendizaje on-policy, mientras que SARSA es un algoritmo off-policy.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 7,
+      "source_quote": "Because Q-learning uses the best Q-value, it pays no attention to the actual policy being followed—it is an off-policy learning algorithm, whereas SARSA is an on-policy algorithm."
     },
     {
       "id": "tue5-mc-1",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 5",
+      "statement": "¿Cómo se denomina al agente ADP que siempre sigue la política óptima de su modelo aprendido y que muy rara vez converge a la política óptima del entorno?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Agente explorador",
+        "Agente codicioso (greedy agent)",
+        "Agente reflejo simple",
+        "Agente Q-learning"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Agente codicioso (greedy agent)",
+      "difficulty_level": 4,
+      "source_quote": "Repeated experiments show that the greedy agent very seldom converges to the optimal policy for this environment and sometimes converges to really horrendous policies."
     },
     {
       "id": "tue5-mc-2",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 5",
+      "statement": "¿Cómo trabaja un agente de programación dinámica adaptativa (ADP)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Promedia el reward-to-go observado de cada estado sin considerar las transiciones",
+        "Aprende directamente una política mediante ascenso por gradiente",
+        "Actualiza solo la utilidad del estado visitado usando el sucesor observado",
+        "Aprende el modelo de transición que conecta los estados y resuelve el proceso de decisión de Markov con programación dinámica"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Aprende el modelo de transición que conecta los estados y resuelve el proceso de decisión de Markov con programación dinámica",
+      "difficulty_level": 5,
+      "source_quote": "An adaptive dynamic programming (or ADP) agent takes advantage of the constraints among the utilities of states by learning the transition model that connects them and solving the corresponding Markov decision process using a dynamic programming method."
     },
     {
       "id": "tue5-mc-3",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 5",
+      "statement": "¿Por qué la regla de actualización U(s) ← U(s) + α(R(s) + γU(s') − U(s)) recibe el nombre de ecuación de diferencias temporales (TD)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque usa la diferencia de utilidades entre estados sucesivos",
+        "Porque el factor de descuento γ cambia con el tiempo",
+        "Porque compara la política actual con la política del episodio anterior",
+        "Porque solo se aplica al final de cada ensayo completo"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Porque usa la diferencia de utilidades entre estados sucesivos",
+      "difficulty_level": 6,
+      "source_quote": "Because this update rule uses the difference in utilities between successive states, it is often called the temporal-difference, or TD, equation."
     },
     {
       "id": "tue5-mc-4",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 5",
+      "statement": "En el agente ADP explorador, ¿cómo debe comportarse la función de exploración f(u, n)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Decreciente en u y creciente en n",
+        "Constante en u y creciente en n",
+        "Creciente en u y decreciente en n",
+        "Decreciente tanto en u como en n"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Creciente en u y decreciente en n",
+      "difficulty_level": 7,
+      "source_quote": "The function f(u, n) should be increasing in u and decreasing in n."
     },
     {
       "id": "tue5-mc-5",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 5",
+      "statement": "¿Cómo se llama el algoritmo de búsqueda de políticas que estima el gradiente del valor de una política estocástica a partir de los resultados de los ensayos, y que suele ser más efectivo que el ascenso de colinas con muchos ensayos?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "SARSA",
+        "Iteración de políticas modificada",
+        "REINFORCE",
+        "Programación dinámica adaptativa"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "REINFORCE",
+      "difficulty_level": 9,
+      "source_quote": "The resulting algorithm is called REINFORCE (Williams, 1992); it is usually much more effective than hill climbing using lots of trials at each value of θ."
     }
   ]
 }
