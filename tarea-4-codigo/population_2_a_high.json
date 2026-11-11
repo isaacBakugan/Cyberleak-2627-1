@@ -1,0 +1,132 @@
+{
+  "function": "funcion_a_2.py",
+  "parameters": {
+    "population_size": 10,
+    "difference_threshold": 0.05,
+    "max_generations": 500,
+    "mutation_variability": 2.0,
+    "generations_elapsed": 195
+  },
+  "members": [
+    {
+      "variables": [
+        1.1655611627013496
+      ],
+      "fitness": 0.7246113537767082,
+      "genes": {
+        "representation": "real",
+        "values": [
+          1.1655611627013496
+        ]
+      }
+    },
+    {
+      "variables": [
+        1.1655611627013496
+      ],
+      "fitness": 0.7246113537767082,
+      "genes": {
+        "representation": "real",
+        "values": [
+          1.1655611627013496
+        ]
+      }
+    },
+    {
+      "variables": [
+        1.1655611627013496
+      ],
+      "fitness": 0.7246113537767082,
+      "genes": {
+        "representation": "real",
+        "values": [
+          1.1655611627013496
+        ]
+      }
+    },
+    {
+      "variables": [
+        1.1655611627013496
+      ],
+      "fitness": 0.7246113537767082,
+      "genes": {
+        "representation": "real",
+        "values": [
+          1.1655611627013496
+        ]
+      }
+    },
+    {
+      "variables": [
+        1.1655611627013496
+      ],
+      "fitness": 0.7246113537767082,
+      "genes": {
+        "representation": "real",
+        "values": [
+          1.1655611627013496
+        ]
+      }
+    },
+    {
+      "variables": [
+        1.1655611627013496
+      ],
+      "fitness": 0.7246113537767082,
+      "genes": {
+        "representation": "real",
+        "values": [
+          1.1655611627013496
+        ]
+      }
+    },
+    {
+      "variables": [
+        1.1655611627013496
+      ],
+      "fitness": 0.7246113537767082,
+      "genes": {
+        "representation": "real",
+        "values": [
+          1.1655611627013496
+        ]
+      }
+    },
+    {
+      "variables": [
+        1.1655611627013496
+      ],
+      "fitness": 0.7246113537767082,
+      "genes": {
+        "representation": "real",
+        "values": [
+          1.1655611627013496
+        ]
+      }
+    },
+    {
+      "variables": [
+        1.1655611627013496
+      ],
+      "fitness": 0.7246113537767082,
+      "genes": {
+        "representation": "real",
+        "values": [
+          1.1655611627013496
+        ]
+      }
+    },
+    {
+      "variables": [
+        1.1655611627013496
+      ],
+      "fitness": 0.7246113537767082,
+      "genes": {
+        "representation": "real",
+        "values": [
+          1.1655611627013496
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "function": "funcion_b_2.py",
+  "parameters": {
+    "population_size": 10,
+    "difference_threshold": 0.05,
+    "max_generations": 500,
+    "mutation_variability": 0.5,
+    "generations_elapsed": 500
+  },
+  "members": [
+    {
+      "variables": [
+        9.50262197960673,
+        9.502469306259952
+      ],
+      "fitness": 59.002530721096825,
+      "genes": {
+        "representation": "real",
+        "values": [
+          9.50262197960673,
+          9.502469306259952
+        ]
+      }
+    },
+    {
+      "variables": [
+        9.50262197960673,
+        9.502469306259952
+      ],
+      "fitness": 59.002530721096825,
+      "genes": {
+        "representation": "real",
+        "values": [
+          9.50262197960673,
+          9.502469306259952
+        ]
+      }
+    },
+    {
+      "variables": [
+        9.50262197960673,
+        9.502469306259952
+      ],
+      "fitness": 59.002530721096825,
+      "genes": {
+        "representation": "real",
+        "values": [
+          9.50262197960673,
+          9.502469306259952
+        ]
+      }
+    },
+    {
+      "variables": [
+        9.50262197960673,
+        9.502469306259952
+      ],
+      "fitness": 59.002530721096825,
+      "genes": {
+        "representation": "real",
+        "values": [
+          9.50262197960673,
+          9.502469306259952
+        ]
+      }
+    },
+    {
+      "variables": [
+        9.502634522414253,
+        9.498946117388781
+      ],
+      "fitness": 58.99999139378776,
+      "genes": {
+        "representation": "real",
+        "values": [
+          9.502634522414253,
+          9.498946117388781
+        ]
+      }
+    },
+    {
+      "variables": [
+        9.624215192454745,
+        9.502469306259952
+      ],
+      "fitness": 56.23133071226675,
+      "genes": {
+        "representation": "real",
+        "values": [
+          9.624215192454745,
+          9.502469306259952
+        ]
+      }
+    },
+    {
+      "variables": [
+        9.785175990522358,
+        9.503484105903572
+      ],
+      "fitness": 47.094041469906365,
+      "genes": {
+        "representation": "real",
+        "values": [
+          9.785175990522358,
+          9.503484105903572
+        ]
+      }
+    },
+    {
+      "variables": [
+        9.50262197960673,
+        10
+      ],
+      "fitness": 39.50126498370029,
+      "genes": {
+        "representation": "real",
+        "values": [
+          9.50262197960673,
+          10
+        ]
+      }
+    },
+    {
+      "variables": [
+        10,
+        9.690821667272758
+      ],
+      "fitness": 33.32401689210334,
+      "genes": {
+        "representation": "real",
+        "values": [
+          10,
+          9.690821667272758
+        ]
+      }
+    },
+    {
+      "variables": [
+        9.293226740345911,
+        10
+      ],
+      "fitness": 31.97597362523983,
+      "genes": {
+        "representation": "real",
+        "values": [
+          9.293226740345911,
+          10
+        ]
+      }
+    }
+  ]
+}
